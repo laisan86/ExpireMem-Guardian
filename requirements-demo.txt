@@ -1,0 +1,7 @@
+# Example reproducibility environment on Python 3.12.x (local, no model API calls)
+pandas==2.2.3
+packaging>=23,<27
+# For the optional six-tab local Streamlit Studio:
+streamlit>=1.36,<2
+# Provider SDK is imported by the optional provider adapters; no request is made by offline replay.
+openai>=1.40,<3

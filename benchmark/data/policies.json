@@ -1,0 +1,40 @@
+[
+  {
+    "id": "pandas.DataFrame.append",
+    "library": "pandas",
+    "symbol": "pandas.DataFrame.append",
+    "deprecated_in": "1.4.0",
+    "removed_in": "2.0.0",
+    "replacement": "pandas.concat",
+    "evidence_urls": [
+      "https://pandas.pydata.org/pandas-docs/version/1.5/whatsnew/v1.4.0.html",
+      "https://pandas.pydata.org/docs/whatsnew/v2.0.0.html"
+    ],
+    "source_status": "official_verified"
+  },
+  {
+    "id": "numpy.float_",
+    "library": "numpy",
+    "symbol": "numpy.float_",
+    "deprecated_in": null,
+    "removed_in": "2.0.0",
+    "replacement": "numpy.float64",
+    "evidence_urls": [
+      "https://numpy.org/doc/2.0/release/2.0.0-notes.html"
+    ],
+    "source_status": "official_verified"
+  },
+  {
+    "id": "django.utils.encoding.force_text",
+    "library": "django",
+    "symbol": "django.utils.encoding.force_text",
+    "deprecated_in": "3.0.0",
+    "removed_in": "4.0.0",
+    "replacement": "django.utils.encoding.force_str",
+    "evidence_urls": [
+      "https://docs.djangoproject.com/en/3.0/releases/3.0/",
+      "https://docs.djangoproject.com/en/4.0/releases/4.0/"
+    ],
+    "source_status": "official_verified"
+  }
+]

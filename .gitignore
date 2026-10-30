@@ -1,0 +1,35 @@
+# Local environments / system files
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+*.pyo
+*.log
+
+# Credentials, provider receipts, model transcripts, ledgers and experiment material
+.env
+.env.*
+*.pem
+*.key
+*.token
+*_private.json
+*_PRIVATE.json
+*_private.jsonl
+private/
+private_*/
+run_real_*/
+raw_response*
+meta_ledger*
+baseten_muse_raw_response_private.json
+baseten_muse_receipt_private.json
+*.mov
+*.mp4
+*.wav
+*.mp3
+
+# Local runtime/probe output
+.local_verify_envs/
+*.local.json
+p*_raw_*.jsonl
